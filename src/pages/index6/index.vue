@@ -3,7 +3,7 @@
  * @Author: yuli
  * @Date: 2021-01-28 15:55:35
  * @LastEditors: yuli
- * @LastEditTime: 2021-01-29 14:51:24
+ * @LastEditTime: 2021-01-29 15:06:19
 -->
 <template>
   <view class="content">
@@ -22,6 +22,12 @@ import myForm from "@/components/my-form"
 export default {
   components: {
     myForm,
+  },
+  onLoad() {
+    console.log("onLoad 页面加载完毕")
+  },
+  onShow() {
+    console.log("onShow 页面被看到")
   },
 }
 </script>
