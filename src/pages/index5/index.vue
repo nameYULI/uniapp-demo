@@ -3,7 +3,7 @@
  * @Author: yuli
  * @Date: 2021-01-28 15:55:35
  * @LastEditors: yuli
- * @LastEditTime: 2021-01-28 20:24:25
+ * @LastEditTime: 2021-01-29 14:16:00
 -->
 <template>
   <view class="content">
@@ -32,6 +32,11 @@ export default {
     handleSrcChange(e) {
       this.src = e
     },
+  },
+  //onLoad 生命周期函数，页面加载完毕会触发
+  onLoad() {
+    console.log(this.baseUrl)
+    console.log(getApp().globalData.base)
   },
 }
 </script>
