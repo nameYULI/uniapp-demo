@@ -1,6 +1,12 @@
 {
   "pages": [
     {
+      "path": "pages/index6/index",
+      "style": {
+        "navigationBarTitleText": "组件-插槽"
+      }
+    },
+    {
       "path": "pages/index5/index",
       "style": {
         "navigationBarTitleText": "组件"
